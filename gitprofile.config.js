@@ -38,7 +38,7 @@ const config = {
     'C++',
     'HTML',
     'CSS',
-    'TypeScript'
+    'TypeScript',
     'JavaScript',
     'MySQL',
     'PostgreSQL',
