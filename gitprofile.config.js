@@ -81,26 +81,26 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Speech Recognition Converter',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Flask application that converts speech to text using the Google Speech Recognition Api.',
+      imageUrl: 'https://ibb.co/0nQD22s',
+      link: 'https://github.com/hirashif/SpeechRecognition-Flask-Python',
     },
     {
-      title: 'Project Name',
+      title: 'Stock Price Predictor',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Built a Linear Regression Model that loads and analyzes stock price data before before March 2018 and predicts prices 30 days into the future.',
+      imageUrl: 'https://ibb.co/3CcXqGD',
+      link: 'https://github.com/hirashif/StockPredictor-LinearRegression',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
